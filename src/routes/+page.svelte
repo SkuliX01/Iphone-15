@@ -11,7 +11,7 @@
       time = getTime();
     }
   
-    setInterval(updateTime, 10000);
+    setInterval(updateTime, 1000);
 
   </script>
 
