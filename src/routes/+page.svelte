@@ -1,9 +1,19 @@
 <script>
-    const today = new Date();
-    const minutes = today.getMinutes();
-    const hours = today.getHours();
-    const time = hours + ":" + minutes.toString().padStart(2, '0');
-</script>
+    let time = getTime();
+    function getTime() {
+      const now = new Date();
+      const hours = now.getHours();
+      const minutes = now.getMinutes();
+      return hours + ":" + String(minutes).padStart(2, '0');
+    }
+  
+    function updateTime() {
+      time = getTime();
+    }
+  
+    setInterval(updateTime, 10000);
+
+  </script>
 
 
 <div class="flex justify-center">
@@ -19,7 +29,7 @@
                     <img src="/images/hud.png" alt="" class="absolute battery">
                 </div>
                 <div class="timer">
-                    <p class="absolute mt-[0.75rem] timer ml-[1.6rem]">{time}</p>
+                    <p class="absolute mt-[0.75rem] timer ml-[1.6rem] time-display">{time}</p>
                 </div>
                 <div class="absolute w-[275px] h-[50px] mt-[34.5rem] ml-[0.65rem] rounded-[20px] opacity-50">
                 </div>
