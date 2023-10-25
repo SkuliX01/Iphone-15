@@ -40,6 +40,42 @@
                     <img src="/icons/safari.png" alt="" class="absolute w-[40px] bg-transparent mt-[34.85rem] ml-[11rem] animate-scaleOutIcon hover:animate-scaleIcon">
                     <img src="/icons/settings.png" alt="" class="absolute w-[40px] bg-transparent mt-[34.85rem] ml-[14.1rem] animate-scaleOutIcon hover:animate-scaleIcon">
                 </div>
+                <div>
+                    <img src="/icons/wallet.png" alt="" class="absolute w-[45px] bg-transparent mt-[5rem] ml-[1.6rem] animate-scaleOutIcon hover:animate-scaleIcon">
+                    <p class="absolute bg-transparent mt-[8.2rem] ml-[1.75rem] label">Wallet</p>
+                    <img src="/icons/facetime.png" alt="" class="absolute w-[45px] bg-transparent mt-[5rem] ml-[5.5rem] animate-scaleOutIcon hover:animate-scaleIcon">
+                    <p class="absolute bg-transparent mt-[8.2rem] ml-[5.15rem] label">FaceTime</p>
+                    <img src="/icons/apple-tv.png" alt="" class="absolute w-[45px] bg-transparent mt-[5rem] ml-[9.4rem] animate-scaleOutIcon hover:animate-scaleIcon">
+                    <p class="absolute bg-transparent mt-[8.2rem] ml-[9.35rem] label">AppleTV</p>
+                    <img src="/icons/camera.png" alt="" class="absolute w-[45px] bg-transparent mt-[5rem] ml-[13.3rem] animate-scaleOutIcon hover:animate-scaleIcon">
+                    <p class="absolute bg-transparent mt-[8.2rem] ml-[13.25rem] label">Camera</p>
+                </div>
+                <div>
+                    <img src="/icons/calendar.png" alt="" class="absolute w-[45px] bg-transparent mt-[10rem] ml-[1.6rem] animate-scaleOutIcon hover:animate-scaleIcon">
+                    <p class="absolute bg-transparent mt-[13.2rem] ml-[1.3rem] label">Calendar</p>
+                    <img src="/icons/snapchat.png" alt="" class="absolute w-[45px] bg-transparent mt-[10rem] ml-[5.5rem] animate-scaleOutIcon hover:animate-scaleIcon">
+                    <p class="absolute bg-transparent mt-[13.2rem] ml-[5.15rem] label">SnapChat</p>
+                    <img src="/icons/mail.png" alt="" class="absolute w-[45px] h-[47px] bg-transparent mt-[9.85rem] ml-[9.4rem] animate-scaleOutIcon hover:animate-scaleIcon">
+                    <p class="absolute bg-transparent mt-[13.2rem] ml-[10.06rem] label">Mail</p>
+                    <img src="/icons/photos.png" alt="" class="absolute w-[45px] bg-transparent mt-[10rem] ml-[13.3rem] animate-scaleOutIcon hover:animate-scaleIcon">
+                    <p class="absolute bg-transparent mt-[13.2rem] ml-[13.5rem] label">Photos</p>
+                </div>
+                <div>
+                    <img src="/icons/apple-stock.png" alt="" class="absolute w-[50px] bg-transparent mt-[15rem] ml-[1.4rem] animate-scaleOutIcon hover:animate-scaleIcon">
+                    <p class="absolute bg-transparent mt-[18.2rem] ml-[1.95rem] label">Stock</p>
+                    <img src="/icons/weather.png" alt="" class="absolute w-[45px] bg-transparent mt-[15rem] ml-[5.5rem] animate-scaleOutIcon hover:animate-scaleIcon">
+                    <p class="absolute bg-transparent mt-[18.2rem] ml-[5.45rem] label">Weather</p>
+                    <img src="/icons/apple-music.png" alt="" class="absolute w-[45px] h-[47px] bg-transparent mt-[15rem] ml-[9.4rem] animate-scaleOutIcon hover:animate-scaleIcon">
+                    <p class="absolute bg-transparent mt-[18.2rem] ml-[9.85rem] label">Music</p>
+                    <img src="/icons/calculator.png" alt="" class="absolute w-[45px] h-[45px] bg-transparent mt-[15.1rem] ml-[13.3rem] animate-scaleOutIcon hover:animate-scaleIcon">
+                    <p class="absolute bg-transparent mt-[18.2rem] ml-[13.5rem] label">Photos</p>
+                </div>
+                <div>
+                    <img src="/icons/maps.png" alt="" class="absolute w-[50px] bg-transparent mt-[20rem] ml-[1.4rem] animate-scaleOutIcon hover:animate-scaleIcon">
+                    <p class="absolute bg-transparent mt-[23.5rem] ml-[1.9rem] label">Maps</p>
+                    <img src="/icons/reminders.png" alt="" class="absolute w-[50px] bg-transparent mt-[20rem] ml-[5.45rem] animate-scaleOutIcon hover:animate-scaleIcon">
+                    <p class="absolute bg-transparent mt-[23.5rem] ml-[5.15rem] label">Reminders</p>
+                </div>
                 <img src="/images/wallpaper.jpeg" alt="wallpaper" class="w-[1000px] h-[609px] rounded-[30px] mx-auto my-auto">
             </div>
         </div>
@@ -50,7 +86,7 @@
     .timer {
         background-color: transparent;
         font-family: 'Montserrat', sans-serif;
-        font-weight: 200;
+        font-weight: 400;
         font-size: 14px;
         color: white;
     }
@@ -59,5 +95,11 @@
         width: 50px;
         margin-top: 1rem;
         margin-left: 14rem;
+    }
+    .label {
+        font-family: 'Montserrat', sans-serif;
+        color: white;
+        font-weight: 300;
+        font-size: 11px;
     }
 </style>
