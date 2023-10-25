@@ -13,6 +13,10 @@
   
     setInterval(updateTime, 1000);
 
+    function ConnectMe() {
+        window.open('https://twitter.com/SkuliX01')
+    }
+
   </script>
 
 
@@ -36,7 +40,9 @@
                 <div>
                     <img src="/icons/app-store.png" alt="" class="absolute w-[40px] bg-transparent mt-[34.85rem] ml-[1.7rem] animate-scaleOutIcon hover:animate-scaleIcon">
                     <img src="/icons/ios-message.png" alt="" class="absolute w-[40px] bg-transparent mt-[34.85rem] ml-[4.8rem] animate-scaleOutIcon hover:animate-scaleIcon">
+                    <a href="#" on:click={ConnectMe}>
                     <img src="/icons/contacts.png" alt="" class="absolute w-[40px] bg-transparent mt-[34.85rem] ml-[7.9rem] animate-scaleOutIcon hover:animate-scaleIcon" title="Made by SkuliX">
+                    </a>
                     <img src="/icons/safari.png" alt="" class="absolute w-[40px] bg-transparent mt-[34.85rem] ml-[11rem] animate-scaleOutIcon hover:animate-scaleIcon">
                     <img src="/icons/settings.png" alt="" class="absolute w-[40px] bg-transparent mt-[34.85rem] ml-[14.1rem] animate-scaleOutIcon hover:animate-scaleIcon">
                 </div>
