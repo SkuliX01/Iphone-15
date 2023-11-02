@@ -74,7 +74,7 @@
                     <img src="/icons/apple-music.png" alt="" class="absolute w-[45px] h-[47px] bg-transparent mt-[15rem] ml-[9.4rem] animate-scaleOutIcon hover:animate-scaleIcon">
                     <p class="absolute bg-transparent mt-[18.2rem] ml-[9.85rem] label">Music</p>
                     <img src="/icons/calculator.png" alt="" class="absolute w-[45px] h-[45px] bg-transparent mt-[15.1rem] ml-[13.3rem] animate-scaleOutIcon hover:animate-scaleIcon">
-                    <p class="absolute bg-transparent mt-[18.2rem] ml-[13.5rem] label">Photos</p>
+                    <p class="absolute bg-transparent mt-[18.2rem] ml-[13rem] label">Calculator</p>
                 </div>
                 <div>
                     <img src="/icons/maps.png" alt="" class="absolute w-[50px] bg-transparent mt-[20rem] ml-[1.4rem] animate-scaleOutIcon hover:animate-scaleIcon">
