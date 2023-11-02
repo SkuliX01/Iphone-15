@@ -22,11 +22,11 @@
 
 <div class="flex justify-center">
     <div class="flex justify-center mt-[2rem]">
-        <div class="w-[320px] h-[635px] border-[5px] border-[#c9c9c9] rounded-[45px] pr-4">
+        <div class="w-[320px] h-[635px] border-[5px] border-[#737272] rounded-[45px] pr-4">
             <div class="w-[310px] h-[625px] border-[8px] border-black rounded-[40px] absolute justify-center items-center">
-                <div class="w-[110px] h-[27px] absolute mt-[9px] ml-[6rem] rounded-full bg-black static animate-scaleOutIs hover:animate-scaleIs">
-                    <div class="w-[15px] h-[15px] bg-black mt-[6px] rounded-full ml-[85px] flex ">
-                        <img src="/images/camera.png" class="bg-black" alt="front-camera">
+                <div class="w-[110px] h-[27px] absolute mt-[9px] ml-[6rem] rounded-full bg-[#191919] static animate-scaleOutIs hover:animate-scaleIs">
+                    <div class="w-[15px] h-[15px] mt-[6px] rounded-full ml-[85px] flex ">
+                        <img src="/images/camera.png" class="bg-[#191919]" alt="front-camera">
                     </div>
                 </div>
                 <div>
